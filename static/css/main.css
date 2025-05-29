@@ -1,0 +1,84 @@
+body {
+  overflow-x: hidden;
+}
+
+.sidebar {
+  align-content: center;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  padding-top: 1rem;
+}
+
+.photo {
+  height: 13rem;
+  width: 13rem;
+  margin: 0 auto 1rem;
+  border: 4px solid #566a81;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sidebar a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #ddd;
+  display: block;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.sidebar a:hover {
+  background-color: #51575c;
+  color: white;
+}
+
+.sidebar a.selected {
+  background-color: #566a81;
+  font-size: larger;
+  color: white;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+}
+
+.contact-info {
+  position: fixed;
+  bottom: 15rem;
+  right: 1rem;
+  z-index: 1000;
+  max-width: 350px;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#content {
+  margin-left: 250px;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+

@@ -1,0 +1,85 @@
+@media (max-width: 991.98px) {
+    .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    }
+
+    .photo {
+    margin-top: 1rem;
+    }
+
+    .sidebar a {
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    }
+
+    #content {
+    margin-left: 0;
+    padding: 1rem;
+    height: auto;
+    justify-content: flex-start;
+    align-items: stretch;
+    }
+
+    .contact-info {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 100%;
+    right: auto;
+    bottom: auto;
+    box-shadow: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    }
+
+    .lead {
+    font-size: 1rem;
+    text-align: center;
+    }
+
+    .photo {
+    width: 10rem;
+    height: 10rem;
+    }
+}
+.responsive-width {
+  width: 100%; /* Default for small screens */
+}
+
+@media (min-width: 992px) {
+  .responsive-width {
+    width: 35%; /* For tablets and above */
+  }
+}
+@media (min-width: 1128px) {
+  .responsive-width {
+    width: 40%; /* For tablets and above */
+  }
+}
+@media (min-width: 1139px) {
+  .responsive-width {
+    width: 45%; /* For tablets and above */
+  }
+}
+@media (min-width: 1285.6px) {
+  .responsive-width {
+    width: 50%; /* For tablets and above */
+  }
+}
+@media (min-width: 1505.7px) {
+  .responsive-width {
+    width: 60%; /* For tablets and above */
+  }
+}
